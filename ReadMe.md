@@ -22,7 +22,9 @@ This is an alpha release, with some changes and limitations.
 # Licensing
 
 This is free software. You are free to download it, free to use it and free to create games with it, at no charge.
-In return, you are expected to provide feedback and report bugs to david@polyomino.com.
+In return, you are expected to provide feedback and report bugs by:
+* submitting an issue to https://github.com/david-pfx/AmzPlayer
+* email to david@polyomino.com.
 
 # Getting started
 

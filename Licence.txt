@@ -1,2 +1,3 @@
 This is free software. You are free to download it, free to use it and free to create games with it, at no charge.
-In return, you are expected to provide feedback and report bugs to david@polyomino.com.
+It comes in the hope it will be useful but with no warranty. Use at your own risk.
+Any games you create with it and give to others must also be at no charge.
