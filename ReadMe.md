@@ -10,14 +10,21 @@ Zillions includes a powerful artificial intelligence, which provides a strong op
 
 Zillions was released as a Windows program around 20 years ago. This is a re-release of the original Zillions with a modern player built on the Unity platform. It comes with the same standard library of 48 games and many variations.
 
-This is an alpha release, with some changes and limitations.
+This is an alpha release, with some changes and limitations. Most recent first.
 
+## Release 3.0-21g30
+- fixes a problem with dependencies on .netcore 5.0 and C runtime v142, by including them in the release
+- adds move animation and sound (first iteration, needs work).
+
+## Release 3.0-21g12
 - there is no move animation or sound (to be done)
 - no developer features (authoring mode, etc)
+- no support for saved games (to be done)
+- no specific support for user-defined games; for now, you can load your own games by editing or replacing the select.zrf file. 
 - music files are in OGG format (MIDI not supported)
+- sound files are in WAV format, but some sounds will not play because they are in a format that Unity does not accept
 - image files are in either BMP or PNG
-- some upgrades to the ZRF format, which may introduce breaking changes (go-moku.zrf fails)
-- support for user-defined games and saved games is not yet implemented. 
+- Zillons 3.0 introduced some new features to the ZRF format, which may introduce breaking changes (go-moku.zrf fails).
 
 # Licensing
 
@@ -28,14 +35,9 @@ In return, you are expected to provide feedback and report bugs by:
 
 # Getting started
 
-- Download and unzip the software. 
-- Run the AmzEngine.exe. It will start the player.
-
-Enjoy!
-
-# User created games
-
-For now, you can load your own games by editing or replacing the select.zrf file. 
+- Download and unzip the software. See https://github.com/david-pfx/AmzPlayer/releases. 
+- Change directory to Engine and run the AmzEngine.exe. There is a BAT file which does that.
+- This should start the player. Enjoy!
 
 # More Detail
 
