@@ -12,6 +12,10 @@ Zillions was released as a Windows program around 20 years ago. This is a re-rel
 
 This is an alpha release, with some changes and limitations. Most recent first.
 
+## Release 3.0-21h13
+- fixes scaling of pieces smaller than position
+- fixes crash with dummy positions and animations.
+
 ## Release 3.0-21g30
 - fixes a problem with dependencies on .netcore 5.0 and C runtime v142, by including them in the release
 - adds move animation and sound (first iteration, needs work).
@@ -41,5 +45,11 @@ In return, you are expected to provide feedback and report bugs by:
 
 # More Detail
 
-This is the original Zillions program heavily modified to run as a server engine, with an all-new Unity player. The original MFC user interface has been removed and replaced by an API and it should play exactly the same as the v3.0 version from which it was derived. The essential features of the user interface have been re-created in Unity, but this has been a complex process, and there will be omissions and differences. This alpha release is intended to identify what still needs to be done. A later release will add core features and platforms.
+This is the original Zillions program heavily modified to run as a server engine, with an all-new Unity player. The original MFC user interface has been removed and replaced by an API and it should play exactly the same as the v3.0 version from which it was derived. The essential features of the user interface have been re-created in Unity, but this has been a complex process, and there will be omissions and differences. 
+
+Most features should be self-evident, except:
+- you can zoom the board in and out using the scroll wheel or Ctrl+plus/minus
+- you can make a move when hovering on a piece by click (if there is only one), by drag and drop to the target position, or by hitting a number key.
+
+This alpha release is intended to identify what still needs to be done. A later release will add core features and platforms.
 
