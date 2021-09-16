@@ -2,7 +2,7 @@
 
 AmzPlayer is A Modern Player for Zillions. See http://www.polyomino.com/amzplayer.
 
-Zillions is a player of board games according to rules specified in a ZRF rules file. Mostly games are for two players, human against computer, although single player games (puzzles) are possible too. The Zillions rules file is highly flxeible, convering games from simple tic-tac-toe (or noughts and crosses) through to chess, go and anywhere in between. Games must be of perfect information, so games with hidden cards like poker or bridge are not possible.
+Zillions is a player of board games according to rules specified in a ZRF rules file. Mostly games are for two players, human against computer, although single player games (puzzles) are possible too. The Zillions rules file is highly flexible, convering games from simple tic-tac-toe (or noughts and crosses) through to chess, go and anywhere in between. Zillions can handle many games of chance, but they must games be of perfect information, so games with hidden cards like poker or bridge are not allowed.
 
 Zillions includes a powerful artificial intelligence, which provides a strong opponent across a wide range of games. AmzPlayer provides a modern player that can be published to just about any platform.
 
@@ -14,26 +14,48 @@ Zillions includes a powerful artificial intelligence, which provides a strong op
 
 # Using the Program
 
-Zillions was released as a Windows program around 20 years ago. 
-This is the original Zillions with a modern player built on the Unity platform. 
-It comes with the same standard library of 48 games and many variations. 
+This is the original Zillions with a modern player built on the Unity platform, and comes with the same standard library of 48 games and many variations. 
+This version was built from a later unreleased version of Zillions 3.0 and there may be slight differences in behaviour. 
 The Zillions Language Reference should be consulted for any questions about the language and how it works. 
-Please be aware that this version was built from a later unreleased version of Zillions 3.0 and there may be slight differences. 
 
-Most features should be self-evident, but please note:
-- User games are accessed by clicking on the Polyomino graphic. Edit User.zrf to get access to your games.
+Moves can be made in several different ways.
+- Click on an empty space to drop a piece there. 
+If there is more than one possibility, then move the mouse cursor until you see the one you want before clicking.
+Alternatively hit a number key to pick that move.
+- Drag a piece to move it to space indicated by a flashing circle.
+If there is more than one possibility, then move the mouse cursor until you see the one you want before dropping.
+Alternatively hit a number key to pick that move.
+
+Most other features should be self-evident, but please note:
 - The board can be zoomed in and out using the scroll wheel or Ctrl+plus/minus.
-- A move can be made when hovering on a piece by click (if there is only one), by drag and drop to the target position, or by hitting a number key.
 - A computer move can be interrupted by Escape or clicking on the board.
-- Any game in progress can be saved and restored by clicking a button. Save files are stored in the Saves directory, one per variant.
+- Flipping the board leaves you in control of all players.
+Play your move and then hit the computer play button to continue.
+- Any game in progress can be saved and restored by clicking a button. 
+Save files are stored in the Saves directory, one per variant.
 Please send me the save file if you want to notify a problem.
+- User games are accessed by clicking on the Polyomino graphic. 
+Edit User.zrf to get access to your games.
 - Engine DLLs will only be found if they are located in the directory Engine or Engine/Engines (this is a Windows oddity).
-- Some problems with sounds have been fixed by substitution. It seems Unity cannot deal with a bit rate of 194 Kbps (default drop and capture).
 
+# Known problems
+
+The following are known problems which may be corrected in a later release.
+- The engine used for Reversi may not terminate until you tell it to play now.
+- Some problems with sounds have been fixed by substitution. 
+It seems Unity cannot deal with a bit rate of 194 Kbps (default drop and capture).
+- The supplied version of one game (Go Moku) did  not compile.
+It was a new 3.0 version, and has now been replaced by the original 2.0 version.
+- Games that offer a very large number of move choices may not be playable with the current move selection mechanism.
+Please supply an example if you have one.
+- Games with a very large board may not be playable, because the board can be zoomed but not scrolled.
+Please supply an example if you have one.
+- Some Zillions features including hints, printing, author mode and some display details have not been implemented (yet).
 # Technical Details
 
+Zillions was released as a Windows program around 20 years ago. 
 This is the original Zillions program heavily modified to run as a server engine, with an all-new Unity player. 
-The original MFC user interface has been removed and replaced by an API and it should play exactly the same as the v3.0 version from which it was derived. 
+The original MFC user interface has been removed and replaced by an API, so it should play exactly the same as the v3.0 version from which it was derived. 
 The essential features of the user interface have been re-created in Unity, but this has been a complex process, and there will be omissions and differences. 
 
 # Release
@@ -41,6 +63,13 @@ The essential features of the user interface have been re-created in Unity, but 
 This is an alpha release, with some changes and limitations. 
 It is intended to identify what still needs to be done. 
 A later release will add core features and platforms.
+
+## Release 3.0-21i17
+- piece sets, flip board, player selection
+- face and search results
+- saved preferences
+- better animations and move selection
+- solutions and progressive variants
 
 ## Release 3.0-21h30
 - adds save, restore, play now
