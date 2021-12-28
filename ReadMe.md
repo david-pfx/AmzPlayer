@@ -13,7 +13,8 @@ The software includes a powerful artificial intelligence in the form of a comput
 
 - Download and unzip the software. See https://github.com/david-pfx/AmzPlayer/releases. 
 - Change directory to Engine and run the AmzEngine.exe. There is a BAT file which does that.
-- This should then start the player. Enjoy!
+- This should then start the player. 
+- Make sure you download and play a few of the thousands of games on offer. Enjoy!
 
 # Using the Program
 
