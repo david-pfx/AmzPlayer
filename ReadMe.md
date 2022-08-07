@@ -13,8 +13,7 @@ The software includes a powerful artificial intelligence in the form of a comput
 
 - Download and unzip the software. See https://github.com/david-pfx/AmzPlayer/releases. 
 - Change directory to Engine and run the AmzEngine.exe. There is a BAT file which does that.
-- This should then start the player. 
-- Make sure you download and play a few of the thousands of games on offer. Enjoy!
+- This should then start the player. Enjoy!
 
 # Using the Program
 
@@ -78,15 +77,22 @@ The Zillions Language Reference should be consulted for any questions about the 
 
 This is a beta release, with some changes and limitations. 
 It is intended to flush out bugs prior to a final release. 
+Is is supplied on the basis that it is free to use but not for distribution.
 
-## Release 3.0-21l31
+## Release Amz-22h08
 - major new feature: add downloadable games
+- added splash screen
 - fix some Engine AI problems
 - minor tweaks, improved display and bug fixes
 
 # Licensing
 
-This is free software. You are free to download it, free to use it and free to create games with it, at no charge.
+This is free software, but not for distribution. 
+You are free to download it, free to use it and free to create games with it, at no charge.
+
 In return, you are expected to provide feedback and report bugs by:
-* submitting an issue to https://github.com/david-pfx/AmzPlayer
+* submitting an issue to GitHub, or
 * email to david@polyomino.com.
+
+Do not distribute this software.
+The latest version is always available https://github.com/david-pfx/AmzPlayer.

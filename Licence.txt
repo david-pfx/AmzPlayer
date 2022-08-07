@@ -1,3 +1,4 @@
 This is free software. You are free to download it, free to use it and free to create games with it, at no charge.
+Beta versions of this software are not to be distributed to others, but must be downloaded directly.
 It comes in the hope it will be useful but with no warranty. Use at your own risk.
 Any games you create with it and give to others must also be at no charge.
