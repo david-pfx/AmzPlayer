@@ -79,6 +79,9 @@ This is a beta release, with some changes and limitations.
 It is intended to flush out bugs prior to a final release. 
 Is is supplied on the basis that it is free to use but not for distribution.
 
+## Release Amz-23a28
+Refresh release, minor changes to wording.
+
 ## Release Amz-22h08
 - major new feature: add downloadable games
 - added splash screen
